@@ -1,1 +1,96 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T09:20:10.897Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="13.10.0" etag="FzGmsxe0XOaEa096K99v" type="github"><diagram id="shjL-ONcznq1Gm0rarEQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-23T09:44:53.094Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="JLMGWbr9co33RSt5kiYa" version="13.10.0" type="github">
+  <diagram id="shjL-ONcznq1Gm0rarEQ" name="Page-1">
+    <mxGraphModel dx="1186" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RIwuCcD7kclSg_TAuUA7-2" target="RIwuCcD7kclSg_TAuUA7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-2" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RIwuCcD7kclSg_TAuUA7-3" target="RIwuCcD7kclSg_TAuUA7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-3" value="监控hive表和mysql表之间的schema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="100" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RIwuCcD7kclSg_TAuUA7-4" target="RIwuCcD7kclSg_TAuUA7-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RIwuCcD7kclSg_TAuUA7-4" target="RIwuCcD7kclSg_TAuUA7-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-4" value="变更？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="160" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RIwuCcD7kclSg_TAuUA7-5" target="RIwuCcD7kclSg_TAuUA7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-5" value="drop掉delta_history表，按新的mysql表字段信息重新创建delta_history表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="230" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RIwuCcD7kclSg_TAuUA7-6" target="RIwuCcD7kclSg_TAuUA7-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-6" value="将前一天merge的数据insert overwrite到delta_history表中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="300" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RIwuCcD7kclSg_TAuUA7-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-7" value="delta_history数据与昨日merge数据，按昨日的schema进行CRC32校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="370" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RIwuCcD7kclSg_TAuUA7-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="99" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="293" y="118" />
+              <mxPoint x="293" y="80" />
+              <mxPoint x="370" y="80" />
+              <mxPoint x="370" y="99" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-8" value="sleep some time" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="105" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.442;entryY=1.08;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RIwuCcD7kclSg_TAuUA7-18" target="RIwuCcD7kclSg_TAuUA7-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RIwuCcD7kclSg_TAuUA7-18" target="RIwuCcD7kclSg_TAuUA7-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-23" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RIwuCcD7kclSg_TAuUA7-21">
+          <mxGeometry x="0.2" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-18" value="成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="430" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.367;entryY=1.12;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RIwuCcD7kclSg_TAuUA7-20" target="RIwuCcD7kclSg_TAuUA7-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-20" value="发出PD告警" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="510" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-24" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="430" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-25" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="160" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RIwuCcD7kclSg_TAuUA7-26" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="210" width="30" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
