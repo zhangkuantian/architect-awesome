@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T13:59:48.395Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="aNWIp9C58p9zGq_lvq9G" version="13.10.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-11-30T15:14:50.372Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="_JGn4fj-qVA72sfJh3K-" version="13.10.2" type="github" pages="4">
   <diagram id="ZLTNZ1dBa3O3V5bpw-3w" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -258,6 +258,26 @@
         </mxCell>
         <mxCell id="aC9KszwQ0sZEYchvu0ob-9" value="提交" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="QWcD2AkUKJ4O_wC_LanE-1">
           <mxGeometry x="626" y="150" width="34" height="18" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BPWFRYgfJlIqr8mrKKTq" name="Page-4">
+    <mxGraphModel dx="946" dy="536" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="2ijMCD524lr8w_p8ZZ6n-0" />
+        <mxCell id="2ijMCD524lr8w_p8ZZ6n-1" parent="2ijMCD524lr8w_p8ZZ6n-0" />
+        <mxCell id="2ijMCD524lr8w_p8ZZ6n-2" value="---------/delta/{db_name}.db/{table_name}/" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="2ijMCD524lr8w_p8ZZ6n-1">
+          <mxGeometry x="70" y="90" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2ijMCD524lr8w_p8ZZ6n-3" value="---------/delta/{db_name}.db/{table_name}/_delta_log" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="2ijMCD524lr8w_p8ZZ6n-1">
+          <mxGeometry x="70" y="110" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2ijMCD524lr8w_p8ZZ6n-4" value="---------/delta/{db_name}.db/{table_name}/part-00000-01acbb95-fe5f-4bb4-8c43-3a2bf16c9e41-c000.snappy.parquet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="2ijMCD524lr8w_p8ZZ6n-1">
+          <mxGeometry x="70" y="130" width="630" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2ijMCD524lr8w_p8ZZ6n-5" value="---------/delta/{db_name}.db/{table_name}/part-00000-01acbb95-fe5f-4bb4-8c43-3a2bf16c9e41-c000.snappy.parquet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="2ijMCD524lr8w_p8ZZ6n-1">
+          <mxGeometry x="70" y="150" width="630" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
