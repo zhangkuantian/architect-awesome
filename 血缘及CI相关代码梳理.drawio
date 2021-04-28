@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-28T08:33:07.880Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="UxbfAv-wsggIZGQ7xR-Q" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-28T08:34:53.351Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="QAIJVqCGKHVS-eo6tAjD" version="14.6.0" type="github">
   <diagram id="rMtIJKf_-BJrZOj8Wyio" name="Page-1">
     <mxGraphModel dx="946" dy="479" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFE6CC" math="0" shadow="0">
       <root>
@@ -97,6 +97,21 @@
             <mxPoint x="274" y="275" as="sourcePoint" />
             <mxPoint x="454" y="411" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="uyzlXY_feBfka4zgD6tP-45" value="&lt;span style=&quot;color: rgb(193 , 120 , 139) ; font-family: monospace ; font-size: 14px ; letter-spacing: -0.3px&quot;&gt;/hive/table_dependency&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="374" y="456" width="188" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="uyzlXY_feBfka4zgD6tP-46" value="&lt;span style=&quot;color: rgb(193 , 120 , 139) ; font-family: monospace ; font-size: 14px ; letter-spacing: -0.3px&quot;&gt;/sparksql/table_dependency&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="375" y="471" width="221" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="uyzlXY_feBfka4zgD6tP-47" value="&lt;span style=&quot;color: rgb(193 , 120 , 139) ; font-family: monospace ; font-size: 14px ; letter-spacing: -0.3px&quot;&gt;/hive/column_dependency&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="374" y="490" width="196" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="uyzlXY_feBfka4zgD6tP-48" value="&lt;span style=&quot;color: rgb(193 , 120 , 139) ; font-family: monospace ; font-size: 14px ; letter-spacing: -0.3px&quot;&gt;/sparksql/column_dependency&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="371" y="504" width="229" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="uyzlXY_feBfka4zgD6tP-49" value="&lt;span style=&quot;color: rgb(193 , 120 , 139) ; font-family: monospace ; font-size: 14px ; letter-spacing: -0.3px&quot;&gt;/hive/semantic_analysis_result&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="371" y="521" width="253" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
